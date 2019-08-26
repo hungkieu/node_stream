@@ -1,6 +1,6 @@
 const http = require('http').createServer();
 const io = require('socket.io')(http);
-const port = 80;
+const port = 3000;
 
 log = console.log;
 
