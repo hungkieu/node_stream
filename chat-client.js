@@ -1,4 +1,4 @@
-var socket = require('socket.io-client')('http://localhost:3000');
+var socket = require('socket.io-client')('http://ec2-18-140-54-32.ap-southeast-1.compute.amazonaws.com:3000');
 const repl = require('repl');
 const chalk = require('chalk');
 
